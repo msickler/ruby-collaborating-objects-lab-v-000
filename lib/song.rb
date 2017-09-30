@@ -11,8 +11,6 @@ class Song
     self.artist.name
   end
 
-def new_by_file_name(filename)
 
-end
 
 end
