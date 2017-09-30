@@ -29,6 +29,7 @@ def self.find_or_create_by_name(name)
   artist = self.all.detect {|n| n.name == name}
   if nil
     artist = self.new(name)
+    artist.save
     artist
   else artist
   end
