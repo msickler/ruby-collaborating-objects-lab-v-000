@@ -28,10 +28,14 @@ end
 def self.find_or_create_by_name(name)
   artist = self.all.detect {|n| n.name == name}
   if nil
-    name = self.new(name)
-    name
+    artist = self.new(name)
+    artist
   else artist
   end
+end
+
+def print_songs
+  @@all 
 end
 
 end
