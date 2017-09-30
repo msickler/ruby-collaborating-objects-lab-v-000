@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def songs
-  songs = Song.new 
+  songs = Song.new
   @songs << songs
 end
 
