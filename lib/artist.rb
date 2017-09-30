@@ -8,5 +8,7 @@ def initialize(name)
   self.save
 end
 
+def songs
+end
 
 end
