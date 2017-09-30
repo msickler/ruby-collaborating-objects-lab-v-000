@@ -1,7 +1,7 @@
 require_relative "artist.rb"
 
 class Song
-  attr_accessor :name, :artist
+  attr_accessor :name, :artist, :artist_name
 
   def initialize(name)
     @name = name
