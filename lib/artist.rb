@@ -9,9 +9,9 @@ def initialize(name)
 
 end
 
-def songs(songs)
-  @songs << songs
-  songs.artist = self
+def songs(song)
+  @songs << song
+  song.artist = self
 end
 
 end
