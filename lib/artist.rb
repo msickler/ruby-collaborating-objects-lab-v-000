@@ -36,8 +36,7 @@ def self.find_or_create_by_name(name)
 end
 
 def print_songs
-  self.all << @@all
-  @@all
+  @songs.each { |song| puts song.name  }
 end
 
 end
